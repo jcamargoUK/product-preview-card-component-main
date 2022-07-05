@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(30deg, 38%, 92%);
+}
+
+#card {
+  display: flex;
+  max-width: 60rem;
+  max-height: 45rem;
+  position: relative;
+  background-color: hsl(30deg, 38%, 92%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  border-radius: 0.8rem;
+}
+
+img {
+  max-width: 30rem;
+  max-height: 45rem;
+  border-top-left-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+}
+
+#light {
+  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  color: hsl(228deg, 12%, 48%);
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  margin-left: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+h1 {
+  font-family: "Fraunces" 7.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  margin-left: 3.2rem;
+  margin-top: 2rem;
+  max-width: 29.5rem;
+}
+
+#info {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  color: hsl(228deg, 12%, 48%);
+  margin-left: 3.2rem;
+  margin-top: 2.4rem;
+  max-width: 29.5rem;
+}
+
+#discount {
+  font-family: "Fraunces";
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  color: hsl(158deg, 36%, 37%);
+  margin-left: 3.2rem;
+  margin-top: 2.9rem;
+}
+
+#old-price {
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 2.3rem;
+  letter-spacing: 0rem;
+  text-align: left;
+  color: hsl(228deg, 12%, 48%);
+  margin-top: 3.4rem;
+  text-decoration: overline;
+  margin-left: 2rem;
+}
+
+button {
+  width: 29.5rem;
+  height: 4.8rem;
+  left: 33.2rem;
+  top: 37rem;
+  background-color: hsl(158deg, 36%, 37%);
+  color: hsl(0deg, 0%, 100%);
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  letter-spacing: 0rem;
+  border: none;
+  border-radius: 0.8rem;
+  margin-left: 3.2rem;
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+}
+button #button-text {
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+  letter-spacing: 0px;
+  text-align: left;
+  color: hsl(0deg, 0%, 100%);
+}
+button img {
+  margin-left: 9rem;
+}
+button p {
+  margin-left: 1.5rem;
+}
+
+#right {
+  background-color: hsl(0deg, 0%, 100%);
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  min-width: 34.3rem;
+}
+
+#price {
+  display: flex;
+}/*# sourceMappingURL=style.css.map */
