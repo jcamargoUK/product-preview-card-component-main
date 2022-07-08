@@ -23,11 +23,17 @@ body {
   border-radius: 0.8rem;
 }
 
-img {
+#image-product-desktop {
   max-width: 30rem;
   max-height: 45rem;
   border-top-left-radius: 0.8rem;
   border-bottom-left-radius: 0.8rem;
+}
+
+#image-product-mobile {
+  visibility: hidden;
+  width: 34.3rem;
+  height: 24rem;
 }
 
 #light {
@@ -64,7 +70,7 @@ h1 {
   color: hsl(228deg, 12%, 48%);
   margin-left: 3.2rem;
   margin-top: 2.4rem;
-  max-width: 29.5rem;
+  max-width: 24.5rem;
 }
 
 #discount {
@@ -88,12 +94,12 @@ h1 {
   text-align: left;
   color: hsl(228deg, 12%, 48%);
   margin-top: 3.4rem;
-  text-decoration: overline;
+  text-decoration: line-through;
   margin-left: 2rem;
 }
 
 button {
-  width: 29.5rem;
+  width: 23.6rem;
   height: 4.8rem;
   left: 33.2rem;
   top: 37rem;
@@ -107,7 +113,7 @@ button {
   border: none;
   border-radius: 0.8rem;
   margin-left: 3.2rem;
-  margin-top: 3rem;
+  margin-top: 4rem;
   display: flex;
   align-items: center;
 }
@@ -121,7 +127,7 @@ button #button-text {
   color: hsl(0deg, 0%, 100%);
 }
 button img {
-  margin-left: 9rem;
+  margin-left: 6rem;
 }
 button p {
   margin-left: 1.5rem;
@@ -131,9 +137,42 @@ button p {
   background-color: hsl(0deg, 0%, 100%);
   border-top-right-radius: 0.8rem;
   border-bottom-right-radius: 0.8rem;
-  min-width: 34.3rem;
+  min-width: 30.3rem;
 }
 
 #price {
   display: flex;
+}
+
+@media screen and (max-width: 375px) {
+  #card {
+    display: flex;
+    flex-direction: column;
+    margin-top: -9.1rem;
+  }
+
+  #image-product-desktop {
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-bottom-left-radius: 0;
+  }
+
+  #right {
+    width: 34.3rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0.8rem;
+    border-bottom-left-radius: 0.8rem;
+    margin-left: 1.6rem;
+    padding-bottom: 3rem;
+  }
+
+  #image-product-desktop {
+    visibility: hidden;
+    height: 0;
+  }
+
+  #image-product-mobile {
+    visibility: visible;
+    margin-left: 1.6rem;
+  }
 }/*# sourceMappingURL=style.css.map */
